@@ -229,7 +229,6 @@
         <module>iuiga-admin</module>
         <module>iuiga-framework</module>
         <module>iuiga-common</module>
-        <module>iuiga-fao</module>
     </modules>
     <packaging>pom</packaging>
 
