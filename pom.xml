@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	
     <groupId>com.iuiga</groupId>
-    <artifactId>iuiga-simple-web</artifactId>
+    <artifactId>iuiga-micro</artifactId>
     <version>1.0.0</version>
 
     <name>demo</name>
@@ -187,13 +187,6 @@
 <!--                <version>${amqp-client.version}</version>-->
 <!--            </dependency>-->
 
-            <!-- 定时任务-->
-            <dependency>
-                <groupId>com.iuiga</groupId>
-                <artifactId>demo-quartz</artifactId>
-                <version>${demo.version}</version>
-            </dependency>
-
             <!-- 核心模块-->
             <dependency>
                 <groupId>com.iuiga</groupId>
@@ -201,24 +194,10 @@
                 <version>${demo.version}</version>
             </dependency>
 
-            <!-- 系统模块-->
-            <dependency>
-                <groupId>com.iuiga</groupId>
-                <artifactId>demo-system</artifactId>
-                <version>${demo.version}</version>
-            </dependency>
-
             <!-- 通用工具-->
             <dependency>
                 <groupId>com.iuiga</groupId>
                 <artifactId>iuiga-common</artifactId>
-                <version>${demo.version}</version>
-            </dependency>
-
-            <!-- 通用工具-->
-            <dependency>
-                <groupId>com.iuiga</groupId>
-                <artifactId>iuiga-fao</artifactId>
                 <version>${demo.version}</version>
             </dependency>
 
